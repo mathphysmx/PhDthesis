@@ -15,17 +15,16 @@ Run at the linux terminal
 │   ├── R
 │   └── scripts
 ├── figs
-│   ├── other     % figures downloaded, pictures, or edited with an image editor
-│   ├── results   % figures exported from R, python
-│   └── TeX       % tikz figures
+│   ├── other         % figures downloaded, pictures, or edited with an image editor
+│   ├── results       % figures exported from R, python
+│   └── TeX           % tikz figures
 ├── pptx          % presentations (beamer/latex, .pptx, html5)
 ├── prewriting
 ├── review        % review and comments from advisors
-└── TeX              % References (.bib), sections or chapters (.tex) LaTeX files
-    ├── config       % LaTeX .sty, .cls, macros.tex
-    │   └── Escudos
-    ├── output       % Latex compilation filex (.aux, .log,...)
-    └── tables       % tables of the document in .tex files, csv tables
+└── TeX                % References (.bib), sections or chapters (.tex) LaTeX files
+    ├── config         % LaTeX .sty, .cls, macros.tex
+    ├── output         % Latex compilation filex (.aux, .log,...)
+    └── tables         % tables of the document in .tex files, csv tables
 ```
 
 # Files
