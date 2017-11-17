@@ -8,7 +8,8 @@ Run at the linux terminal
 `$ sh makefile.sh`
 
 ## SOURCE FILE STRUCTURE
-`
+
+```
 ├── code
 │   ├── datasets  
 │   ├── R
@@ -25,7 +26,7 @@ Run at the linux terminal
     │   └── Escudos
     ├── output       % Latex compilation filex (.aux, .log,...)
     └── tables       % tables of the document in .tex files, csv tables
-    `
+```
 
 ## Files
 
