@@ -7,7 +7,7 @@ Run at the linux terminal
 
 `$ sh makefile.sh`
 
-# File structure
+# Directory structure
 
 ```
 ├── code
