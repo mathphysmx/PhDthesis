@@ -1,0 +1,54 @@
+% http://tex.stackexchange.com/questions/11866/compile-a-latex-document-into-a-png-image-thats-as-short-as-possible#11880
+%http://tex.stackexchange.com/questions/152247/best-practice-to-include-standalone-precompiled-graphics
+\documentclass[border=1pt]{standalone}
+\usepackage{tikz}
+
+\begin{document}
+\begin{tikzpicture}[very thick]
+	%\coordinate (A1) at (0,0);
+	%\coordinate (A2) at (10,10);
+	%\draw [help lines, lightgray] (A1) grid (A2);
+
+	\newcommand*{\x}{6}
+	\draw [<->, lightgray] (0, \x) -- (0, 0) -- (\x, 0);
+	\draw [lightgray](0,0) rectangle (\x-1, \x-1);
+	\node [left] at (0,\x) {$u$};
+	\node [below] at (\x,0) {$v$};
+
+        \newcommand*{\ymx}{-3.5} % x inflection point
+	\newcommand*{\ymy}{2.5} % y inflection point
+	\newcommand*{\xmx}{2.5} % x inflection point
+	\newcommand*{\xmy}{-2.5} % y inflection point
+
+	\draw[dashed,lightgray] (\ymx,0) -- (\ymx, \ymy) -- (\xmx,\ymy);
+	\draw[dashed,lightgray] (0,\xmy) -- (\xmx, \xmy) -- (\xmx,\ymy);
+
+	% y variable (abscissa)
+	\draw[->,lightgray] (-5, 0) -- (-0.5,0);
+	\newcommand*{\A}{260} % angle
+	\node [below] at (\ymx,0) {$y_i$};
+	\draw (-5,0.3) to [out=10,in=\A] (\ymx,\ymy);
+	\draw (\ymx,\ymy) to [out=\A-180,in=180] (-1,\x-1);
+	\fill (\ymx, \ymy) circle (2pt);
+	\node [left] at (\ymx,\ymy) {$v_i=F_Y(y_i)$};
+
+	% x variable (ordinate)
+	\draw[->,lightgray] (0, -5) -- (0,-0.5);
+	\newcommand*{\Ax}{90} % angle
+	\node [left] at (0, \xmy) {$x_i$};
+	\draw (0.3, -5) to [out=80,in=\A] (\xmx,\xmy);
+	\draw (\xmx,\xmy) to [out=\A-180,in=270] (\x-1, -1);
+	\fill (\xmx, \xmy) circle (2pt);
+	\node [right] at (\xmx,\xmy) {$u_i = F_X(x_i)$};
+
+	\fill (\xmx,\ymy) node[right] {$(u_i,v_i)$} circle (2pt);
+
+	\coordinate (x1) at (0,3);
+	\coordinate (x2) at (2,3);
+	\coordinate (x3) at (2,0);
+	\coordinate (x4) at (3,3);
+
+	%\draw [arrow] (2,3) -- (end);
+\end{tikzpicture}
+
+\end{document}

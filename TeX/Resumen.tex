@@ -1,0 +1,20 @@
+\chapter*{Resumen}
+\addtocontents{toc}{\hfill \textbf{P\'agina} \par}
+\addcontentsline{toc}{chapter}{Resumen}
+\markboth{Resumen}{Resumen}
+
+La motivaci\'on principal de este trabajo fue desarrollar un enfoque metodol\'ogico para la caracterizaci\'on, modelado y simulaci\'on de Redes de Fracturas Discretas (DFN) en 2D que tome en cuenta las relaciones de dependencias entre las propiedades de las fracturas.
+Para la modelaci\'on de las dependencias se utiliz\'o la teor\'ia de c\'opulas con el enfoque no param\'etrico de c\'opulas de Bernstein.
+Dicho enfoque permiti\'o que se considerara de manera expl\'icita las relaci\'ones orientaci\'on-longitud  y orientaci\'on-longitud-apertura en la modelaci\'on, ya que la orientaci\'on, al ser un dato direccional, impuso nuevas restricciones a la metodolog\'ia convencional.
+La importancia radica en que tales relaciones pueden tener consecuencias relevantes en las propiedades de percolaci\'on y consecuentemente en las propiedades de flujo y transporte del sistema en estudio.
+
+El enfoque de redes de fracturas discretas consiste en aplicar un m\'etodo de simulaci\'on estoc\'astica booleano, tambi\'en conocido como m\'etodo de simulaci\'on basado en objetos, donde las fracturas se representan como objetos geom\'etricos simplificados (segmentos de l\'inea en 2D y pol\'igonos en 3D).
+De esta manera, las fracturas son consideradas expl\'icitamente y pueden ser incluidas en los modelos de flujo y transporte cuando dichas fracturas sean relevantes.
+
+Dentro de la modelaci\'on geol\'ogica-petrof\'isica de yacimientos, y desde el punto de vista metodol\'ogico, se describi\'o detalladamente la modelaci\'on de cada uno de los elementos de una red de fracturas discretas tanto con la metodolog\'ia est\'andar como con la metodolog\'ia propuesta.
+Tambi\'en se hizo \'enfasis en mostrar los diagramas de flujo dentro de cada etapa de la modelaci\'on, el flujo de trabajo general, as\'i como en mostrar su relaci\'on con los modelos num\'ericos y computacionales.
+
+Esta metodolog\'ia se aplic\'o en dos redes de fracturas generadas sint\'eticamente, pero respetando argumentos geol\'ogicos tomados de la literatura.
+En el primer caso de estudio solamente se model\'o la relaci\'on direcci\'on-longitud y en el otro se model\'o el tr\'io direcci\'on-longitud-apertura.
+En ambos ejemplos se mostr\'o que el enfoque com\'un en donde no se toma en cuenta la dependencia genera Redes de Fracturas Discretas que distan mucho de los datos reales cuando hay dependencia.
+En particular, se mostr\'o que con el enfoque convencional se puede reproducir el comportamiento univariado de cada propiedad de fractura, pero el comportamiento bi- o trivariado es totalmente diferente al modelado con la teor\'ia de c\'opulas, el cual s\'i reprodujo la estructura de dependencia de los datos.

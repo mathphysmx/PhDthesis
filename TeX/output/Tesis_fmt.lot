@@ -1,0 +1,21 @@
+\select@language {spanish}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {2.1}{\ignorespaces Valores de porcentajes de pixeles negros para los resultados en la \autoref {f:fraxByMultiPoint}.\relax }}{20}{table.caption.12}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {4.1}{\ignorespaces Funciones de densidad de probabilidad para datos orientados. $0 \le \theta < 2\pi , \hskip 1em\relax 0 \le \phi < \pi /2,\hskip 1em\relax 0 \le \kappa < \infty $. Ver ec. 3.5.17 de \cite {mardia_directional_2000}, ec. 2.2.6 en la secci\'on 2.2.4 de \cite {jammalamadaka_topics_2001} y ec. 4.22 de \cite {fisher_statistical_1993}.\relax }}{43}{table.caption.19}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {6.1}{\ignorespaces S\'imbolos b\'asicos para construir diagramas de flujo.\relax }}{67}{table.caption.30}
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {7.1}{\ignorespaces Par\'ametros de la combinaci\'on de dos distribuciones de von Mises de donde fueron muestreadas las 400 direcciones de la red de fractura a modelar.\relax }}{77}{table.caption.41}
+\contentsline {table}{\numberline {7.2}{\ignorespaces Estad\'istica circular de las direcciones de los datos sint\'eticos.\relax }}{78}{table.caption.43}
+\contentsline {table}{\numberline {7.3}{\ignorespaces Estad\'igrafos de las longitudes de los datos sint\'eticos.\relax }}{78}{table.caption.45}
+\contentsline {table}{\numberline {7.4}{\ignorespaces Estad\'igrafos circulares de las direcciones de una simulaci\'on de los datos. Comp\'arese con \autoref {t:circStats}.\relax }}{81}{table.caption.49}
+\contentsline {table}{\numberline {7.5}{\ignorespaces Estad\'igrafos de las longitudes de una simulaci\'on de los datos. Comp\'arese con la \autoref {t:lengthStats}.\relax }}{82}{table.caption.51}
+\contentsline {table}{\numberline {7.6}{\ignorespaces Estad\'igrafos de las longitudes y las orientaciones. Los estad\'igrafos de $\theta $ fueron estimados mediante la estad\'istica de datos orientados. Comp\'arese con la \autoref {tab:trivSim}.\relax }}{88}{table.caption.58}
+\contentsline {table}{\numberline {7.7}{\ignorespaces Estad\'igrafos de las longitudes y las orientaticiones de las simulaciones. Los estad\'igrafos de $\theta $ fueron estimados mediante la estad\'istica de datos orientados. Comp\'arese con la \autoref {tab:triv}.\relax }}{88}{table.caption.61}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }

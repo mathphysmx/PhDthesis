@@ -1,0 +1,619 @@
+\begin{thebibliography}{}
+
+\bibitem[Aas et~al., 2009]{aas_pair-copula_2009}
+Aas, K., Czado, C., Frigessi, A., and Bakken, H. (2009).
+\newblock Pair-copula constructions of multiple dependence.
+\newblock {\em Insurance: Mathematics and Economics}, 44(2):182--198.
+
+\bibitem[Adler and Thovert, 1999]{adler_fractures_1999}
+Adler, P.~M. and Thovert, J.-F. (1999).
+\newblock {\em Fractures and {Fracture} {Networks}}, volume~15 of {\em Theory
+  and {Applications} of {Transport} in {Porous} {Media}}.
+\newblock Springer Netherlands, Dordrecht.
+
+\bibitem[Agostinelli and Lund, 2013]{agostinelli_r_2013}
+Agostinelli, C. and Lund, U. (2013).
+\newblock R package circular: {Circular} {Statistics} (version 0.4-7).
+
+\bibitem[Asquith, 2017]{asquith_lmomco:_2017}
+Asquith, W. (2017).
+\newblock lmomco: {L}-{Moments}, {Censored} {L}-{Moments}, {Trimmed}
+  {L}-{Moments}, {L}-{Comoments}, and {Many} {Distributions}.
+
+\bibitem[Ayala-Garc{\'i}a and D{\'i}az-Viera,
+  2014]{ayala-garcia_estimacion_2014}
+Ayala-Garc{\'i}a, C.~D. and D{\'i}az-Viera, M.~A. (2014).
+\newblock {\em Estimaci{\'o}n del umbral de percolaci{\'o}n en modelos de redes
+  de fracturas discretas en medios porosos naturalmente fracturados}.
+\newblock Bachelor, Universidad Nacional Aut{\'o}noma de M{\'e}xico, Mexico
+  City.
+
+\bibitem[Balankin et~al., 2001]{balankin_distribution_2001}
+Balankin, A., Morales-Matamoros, D., Castrejon, F., Pacheco, C., Zaldivar, J.,
+  and Velasquillo-Mart\'{i}nez, L.~G. (2001).
+\newblock Distribution of {Fracture} {Apertures} in {Rocks}.
+
+\bibitem[B\'{a}rdossy, 2006]{bardossy_copula-based_2006}
+B\'{a}rdossy, A. (2006).
+\newblock Copula-based geostatistical models for groundwater quality
+  parameters.
+\newblock {\em Water Resources Research}, 42(11):W11416.
+
+\bibitem[Berghaus et~al., 2017]{berghaus_weak_2017}
+Berghaus, B., B\:ucher, A., and Volgushev, S. (2017).
+\newblock Weak convergence of the empirical copula process with respect to
+  weighted metrics.
+\newblock {\em Bernoulli}, 23(1):743--772.
+
+\bibitem[Bonnet et~al., 2001]{bonnet_scaling_2001}
+Bonnet, E., Bour, O., Odling, N.~E., Davy, P., Main, I., Cowie, P., and
+  Berkowitz, B. (2001).
+\newblock Scaling of fracture systems in geological media.
+\newblock {\em Reviews of Geophysics}, 39(3):347.
+
+\bibitem[Bour and Davy, 1997]{bour_connectivity_1997}
+Bour, O. and Davy, P. (1997).
+\newblock Connectivity of random fault networks following a power law fault
+  length distribution.
+\newblock {\em Water Resources Research}, 33(7):1567--1583.
+
+\bibitem[Bourbiaux et~al., 2002]{bourbiaux_integrated_2002}
+Bourbiaux, B., Basquet, R., Cacas, M.-C., Daniel, J.-M., and Sarda, S. (2002).
+\newblock An {Integrated} {Workflow} to {Account} for {Multi}-{Scale}
+  {Fractures} in {Reservoir} {Simulation} {Models}: {Implementation} and
+  {Benefits}.
+\newblock In {\em {SPE}-78489-{MS}}, pages 1--16, SPE. Society of Petroleum
+  Engineers.
+
+\bibitem[Box, 1971]{box_bias_1971}
+Box, M.~J. (1971).
+\newblock Bias in {Nonlinear} {Estimation}.
+\newblock {\em Journal of the Royal Statistical Society. Series B
+  (Methodological)}, 33(2):171--201.
+
+\bibitem[B\:ucher and Volgushev, 2011]{bucher_empirical_2011}
+B\:ucher, A. and Volgushev, S. (2011).
+\newblock Empirical and sequential empirical copula processes under serial
+  dependence.
+\newblock {\em arXiv:1111.2778 [math, stat]}.
+\newblock arXiv: 1111.2778.
+
+\bibitem[Cacas et~al., 2001]{Cacas2001}
+Cacas, M.~C., Daniel, J.~M., and Letouzey, J. (2001).
+\newblock Nested geological modelling of naturally fractured reservoirs.
+\newblock {\em Petroleum Geoscience}, 7(S):S43--S52.
+
+\bibitem[Carnicero et~al., 2013]{carnicero_non-parametric_2013}
+Carnicero, J.~A., Aus{\'i}n, M.~C., and Wiper, M.~P. (2013).
+\newblock Non-parametric copulas for circular{\textendash}linear and
+  circular{\textendash}circular data: an application to wind directions.
+\newblock {\em Stochastic Environmental Research and Risk Assessment},
+  27(8):1991--2002.
+
+\bibitem[Casella and Berger, 2002]{casella_statistical_2002}
+Casella, G. and Berger, R.~L. (2002).
+\newblock {\em Statistical inference}.
+\newblock DUXBURY ADVANCED SERIES, 2 edition.
+
+\bibitem[Chernih et~al., 2007]{chernih_beyond_2007}
+Chernih, A., Maj, M., and Vanduffel, S. (2007).
+\newblock Beyond {Correlations}: {The} {Use} and {Abuse} of {Copulas} in
+  {Economic} {Capital} {Calculations}.
+\newblock {\em Belgian Actuarial Bulletin}, 7(1).
+
+\bibitem[Chil{\`e}s and Delfiner, 2012]{chiles_geostatistics:_2012}
+Chil{\`e}s, J.-P. and Delfiner, P. (2012).
+\newblock {\em Geostatistics: modeling spatial uncertainty}, volume 497.
+\newblock John Wiley \& Sons.
+
+\bibitem[Cosentino, 2001]{cosentino_integrated_2001}
+Cosentino, L. (2001).
+\newblock {\em Integrated reservoir studies}.
+\newblock Institut fran{\c c}ais du p{\'e}trole publications. Editions Technip,
+  Paris.
+
+\bibitem[Dahlquist and Bj\"orck, 2008]{dahlquist_numerical_2008}
+Dahlquist, G. and Bj\"orck, A. (2008).
+\newblock {\em Numerical {Methods} in {Scientific} {Computing}: {Volume} 1}.
+\newblock Society for Industrial and Applied Mathematics, Philadelphia.
+
+\bibitem[Datta, 2016]{datta_coal_2016}
+Datta, D.~R. (2016).
+\newblock Coal, {Cleat} {System}.
+\newblock In Tiess, G., Majumder, T., and Cameron, P., editors, {\em
+  Encyclopedia of {Mineral} and {Energy} {Policy}}, pages 1--4. Springer Berlin
+  Heidelberg.
+\newblock DOI: 10.1007/978-3-642-40871-7\_96-1.
+
+\bibitem[Davis et~al., 2011]{davis_structural_2011}
+Davis, G.~H., Reynolds, S.~J., and Kluth, C.~F. (2011).
+\newblock {\em Structural {Geology} of {Rocks} and {Regions}}.
+\newblock Wiley, Hoboken, 3 edition edition.
+
+\bibitem[de~Villiers, 2012]{de_villiers_mathematics_2012}
+de~Villiers, J. (2012).
+\newblock {\em Mathematics of {Approximation}}.
+\newblock Atlantis Press, Paris.
+
+\bibitem[Deheuvels, 1979]{deheuvels_fonction_1979}
+Deheuvels, P. (1979).
+\newblock La fonction de d{\'e}pendence empirique et ses propri{\'e}t{\'e}s.
+  {Un} test non parametrique d'ind{\'e}pendence.
+\newblock {\em Acad. Roy. Belg. Bull. Cl. Sci. (5), 65(6),}, pages 274--292.
+
+\bibitem[Deutsch, 2002]{deutsch_geostatistical_2002}
+Deutsch, C.~V. (2002).
+\newblock {\em Geostatistical reservoir modeling}.
+\newblock Applied geostatistics series. Oxford University Press, New York, 1st
+  edition edition.
+
+\bibitem[D\'iaz-Viera, 2015]{diaz2015vine}
+D\'iaz-Viera, A. E. �.~M. (2015).
+\newblock A vine and gluing copula model for permeability stochastic
+  simulation.
+\newblock In {\em 16thASMDA {Conference} {Proceedings}}.
+
+\bibitem[D{\'i}az-Viera, 2012]{diaz-viera_spatial_2012}
+D{\'i}az-Viera, M.~A. (2012).
+\newblock {SPATIAL} {STOCHASTIC} {MODELS} {AS} {A} {POWERFUL} {TOOL} {FOR}
+  {UNCERTAINTY} {MODELING} {IN} {HETEROGENEOUS} {RESERVOIR} {FORMATIONS}.
+\newblock {\em Geological Society of America Abstracts with Programs,},
+  44(3):20.
+
+\bibitem[D{\'i}az-Viera and Anguiano-Rojas, 2006]{diaz-viera_stochastic_2006-2}
+D{\'i}az-Viera, M.~A. and Anguiano-Rojas, P. (2006).
+\newblock Stochastic modeling of permeability in naturally fractured carbonate
+  reservoirs applying a {Monte}-{Carlo} simulation method with t-copulas.
+\newblock {\em SPWLA 47th Annual Logging Symposium}.
+
+\bibitem[D{\'i}az-Viera et~al., 2006]{diaz-viera_stochastic_2006}
+D{\'i}az-Viera, M.~A., Anguiano-Rojas, P., Mousatov, A., Kazatchenko, E., and
+  Markov, M. (2006).
+\newblock Stochastic modeling of permeability in double porosity carbonates
+  applying a monte-carlo simulation method with t-copulas.
+\newblock In {\em SPWLA 47th Annual Logging Symposium}, pages 1--15.
+
+\bibitem[D{\'i}az-Viera and Casar-Gonz{\'a}lez,
+  2005a]{diaz-viera_stochastic_2005}
+D{\'i}az-Viera, M.~A. and Casar-Gonz{\'a}lez, R. (2005a).
+\newblock Stochastic simulation of complex dependency patterns of petrophysical
+  properties using t-copulas.
+\newblock In {\em Proceedings of IAMG05: GIS and Spatial Analysis}, volume~2,
+  pages 749--755.
+
+\bibitem[D{\'i}az-Viera and Casar-Gonz{\'a}lez,
+  2005b]{diaz-viera_stochastic_2005-1}
+D{\'i}az-Viera, M.~A. and Casar-Gonz{\'a}lez, R. (2005b).
+\newblock Stochastic simulation of complex dependency patterns of petrophysical
+  properties using t-copulas.
+\newblock {\em Proceedings of IAMG05: GIS and Spatial Analysis}, 2:749--755.
+
+\bibitem[Dietrich et~al., 2005]{dietrich_flow_2005}
+Dietrich, P., Helmig, R., Sauter, M., H{\"o}tzl, H., K{\"o}ngeter, J., and
+  Teutsch, G. (2005).
+\newblock {\em Flow and {Transport} in {Fractured} {Porous} {Media}}.
+\newblock Springer-Verlag, Berlin, Heidelberg.
+
+\bibitem[Di{\ss}mann, 2010]{dismann_statistical_2010}
+Di{\ss}mann, J.~F. (2010).
+\newblock {\em Statistical {Inference} for {Regular} {Vines} and
+  {Application}}.
+\newblock Diplomarbeit, Technische Universit{\"a}t M{\"u}nchen.
+
+\bibitem[Dowd et~al., 2007]{dowd_comparison_2007}
+Dowd, P.~A., Xu, C., Mardia, K.~V., and Fowell, R.~J. (2007).
+\newblock A {Comparison} of {Methods} for the {Stochastic} {Simulation} of
+  {Rock} {Fractures}.
+\newblock {\em Mathematical Geology}, 39(7):697--714.
+
+\bibitem[Elmo et~al., 2014]{elmo_discrete_2014}
+Elmo, D., Rogers, S., Stead, D., and Eberhardt, E. (2014).
+\newblock Discrete {Fracture} {Network} approach to characterise rock mass
+  fragmentation and implications for geomechanical upscaling.
+\newblock {\em Mining Technology}, 123(3):149--161.
+
+\bibitem[Embrechts and Hofert, 2013]{embrechts_note_2013}
+Embrechts, P. and Hofert, M. (2013).
+\newblock A note on generalized inverses.
+\newblock {\em Mathematical Methods of Operations Research}, 77(3):423--432.
+
+\bibitem[Embrechts et~al., 1999]{embrechts_correlation:_1999}
+Embrechts, P., McNeil, A., and Straumann, D. (1999).
+\newblock Correlation: {Pitfalls} and {Alternatives}.
+\newblock {\em Risk Magazine}, 12(5):69--71.
+
+\bibitem[Erdely and D{\'i}az-Viera, 2009]{erdely_nonparametric_2009}
+Erdely, A. and D{\'i}az-Viera, M.~A. (2009).
+\newblock Nonparametric bivariate modeling of petrophysical
+  porosity-permeability well log data.
+\newblock {\em Workshop on Copula Theory and Its Applications Preliminary Book
+  of Abstracts Posters August 22, 2009}, page~1.
+
+\bibitem[Erdely and D{\'i}az-Viera, 2011]{erdely_modeling_2011}
+Erdely, A. and D{\'i}az-Viera, M.~A. (2011).
+\newblock Modeling porosity-permeability data by gluing copulas.
+\newblock {\em AGU Fall Meeting Abstracts}, 1:1038.
+
+\bibitem[Erdely and D{\'i}az-Viera, 2012]{erdely_joint_2012}
+Erdely, A. and D{\'i}az-Viera, M.~A. (2012).
+\newblock Joint {Porosity}-permeability {Stochastic} {Simulation} and {Spatial}
+  {Median} {Regression} by {Nonparametric} {Copula} {Modeling}.
+\newblock In {\em {GI}\_Forum 2012: {Geovizualisation}, {Society} and
+  {Learning}}, pages 346 -- 354. Herbert Wichmann Verlag, VDE VERLAG GMBH,
+  Berlin/Offenbach, Wichman, Berlin.
+
+\bibitem[Erdely et~al., 2012]{erdely_trivariate_2012}
+Erdely, A., D{\'i}az-Viera, M.~A., and Hern{\'a}ndez-Maldonado, V. (2012).
+\newblock Trivariate nonparametric dependence modeling of petrophysical
+  properties.
+\newblock {\em Mathematical and Numerical Modeling in Porous Media:
+  Applications in Geosciences}, page 195.
+
+\bibitem[Farrell, 2014]{farrell_programming_2014}
+Farrell, J. (2014).
+\newblock {\em Programming {Logic} and {Design}, {Comprehensive}}.
+\newblock Course Technology, Stamford, CT, 8 edition edition.
+
+\bibitem[Fermanian et~al., 2004]{fermanian_weak_2004}
+Fermanian, J.-D., Radulovi\'c, D., and Wegkamp, M. (2004).
+\newblock Weak convergence of empirical copula processes.
+\newblock {\em Bernoulli}, 10(5):847--860.
+
+\bibitem[Fern{\'a}ndez-Dur{\'a}n, 2004]{fernandezduran_modelling_2004}
+Fern{\'a}ndez-Dur{\'a}n, J.-J. (2004).
+\newblock Modelling {Ground}-{Level} {Ozone} {Concentration} {Using} {Copulas}.
+\newblock volume 707, pages 406--416. AIP Publishing.
+
+\bibitem[Fisher, 1995]{fisher_statistical_1995}
+Fisher, N.~I. (1995).
+\newblock {\em Statistical {Analysis} of {Circular} {Data}}.
+\newblock Cambridge University Press, Cambridge England; New York.
+
+\bibitem[Fisher et~al., 1993]{fisher_statistical_1993}
+Fisher, N.~I., Lewis, T., and Embleton, B. J.~J. (1993).
+\newblock {\em Statistical {Analysis} of {Spherical} {Data}}.
+\newblock Cambridge University Press.
+
+\bibitem[Fossen, 2010]{fossen_structural_2010}
+Fossen, H. (2010).
+\newblock {\em Structural {Geology}}.
+\newblock Cambridge University Press, Cambridge ; New York, 1 edition edition.
+
+\bibitem[Gijbels et~al., 2011]{gijbels_conditional_2011}
+Gijbels, I., Veraverbeke, N., and Omelka, M. (2011).
+\newblock Conditional copulas, association measures and their applications.
+\newblock {\em Comput. Stat. Data Anal.}, 55(5):1919--1932.
+
+\bibitem[Goldman, 2002]{goldman_pyramid_2002}
+Goldman, R. (2002).
+\newblock {\em Pyramid algorithms: {A} dynamic programming approach to curves
+  and surfaces for geometric modeling}.
+\newblock Morgan Kaufmann.
+
+\bibitem[Gringarten, 1997]{gringarten_geometric_1997}
+Gringarten, E. (1997).
+\newblock {\em Geometric modeling of fracture networks}.
+\newblock PhD thesis, Stanford University.
+
+\bibitem[Gudmundsson et~al., 2011]{gudmundsson_power-law_2011}
+Gudmundsson, A., Mohajeri, N., and Barnett, Z. (2011).
+\newblock Power-law size distributions in volcanotectonics.
+\newblock {\em Geophysical Research Abstracts}, 13.
+
+\bibitem[Haslauer et~al., 2010]{haslauer_application_2010}
+Haslauer, C.~P., Li, J., and B\'{a}rdossy, A. (2010).
+\newblock Application of {Copulas} in {Geostatistics}.
+\newblock In Atkinson, P.~M. and Lloyd, C.~D., editors, {\em {geoENV} {VII} –
+  {Geostatistics} for {Environmental} {Applications}}, number~16 in
+  Quantitative {Geology} and {Geostatistics}, pages 395--404. Springer
+  Netherlands.
+\newblock DOI: 10.1007/978-90-481-2322-3\_34.
+
+\bibitem[Hern{\'a}ndez-Maldonado et~al.,
+  2012a]{hernandez-maldonado_joint_2012-1}
+Hern{\'a}ndez-Maldonado, V., D{\'i}az-Viera, M.~A., and Erdely, A. (2012a).
+\newblock Joint porosity-permeability stochastic simulation by non-parametric
+  copulas.
+\newblock {\em CRC/Press Balkema}, Taylor \& Francis Group:Ch. 11, 209.
+
+\bibitem[Hern{\'a}ndez-Maldonado et~al., 2012b]{hernandez-maldonado_joint_2012}
+Hern{\'a}ndez-Maldonado, V., D{\'i}az-Viera, M.~A., and Erdely, A. (2012b).
+\newblock A joint stochastic simulation method using the {Bernstein} copula as
+  a flexible tool for modeling nonlinear dependence structures between
+  petrophysical properties.
+\newblock {\em Journal of Petroleum Science and Technology}, 90:112--123.
+
+\bibitem[Hern{\'a}ndez-Maldonado et~al.,
+  2012c]{hernandez-maldonado_trivariate_2012}
+Hern{\'a}ndez-Maldonado, V., D{\'i}az-Viera, M.~A., and Erdely, A. (2012c).
+\newblock A trivariate {Bernstein} copula for joint stochastic simulation of
+  petrophysical properties.
+\newblock {\em Petroleum Science and Technology}.
+
+\bibitem[Hern{\'a}ndez-Maldonado and D{\'i}az-Viera,
+  2014]{hernandez-maldonado_simulacion_2014}
+Hern{\'a}ndez-Maldonado, V.~M. and D{\'i}az-Viera, M.~A. (2014).
+\newblock {\em Simulaci{\'o}n estoc{\'a}stica espacial de propiedades
+  petrof{\'i}sicas usando c{\'o}pulas de {Bernstein}}.
+\newblock Ph. {D}., Instituto Mexicano del Petr{\'o}leo, Mexico City.
+
+\bibitem[Jammalamadaka and SenGupta, 2001]{jammalamadaka_topics_2001}
+Jammalamadaka, S.~R. and SenGupta, A. (2001).
+\newblock {\em Topics in circular statistics}, volume~5 of {\em Series on
+  {Multivariate} {Analysis}}.
+\newblock World Scientific, River Edge, N.J.
+
+\bibitem[Joe, 2014]{joe_dependence_2014}
+Joe, H. (2014).
+\newblock {\em Dependence {Modeling} with {Copulas}}.
+\newblock Chapman and Hall/CRC, Boca Raton, 1 edition edition.
+
+\bibitem[Johnson and Wehrly, 1978]{johnson_angular-linear_1978}
+Johnson, R.~A. and Wehrly, T.~E. (1978).
+\newblock Some {Angular}-{Linear} {Distributions} and {Related} {Regression}
+  {Models}.
+\newblock {\em Journal of the American Statistical Association},
+  73(363):602--606.
+
+\bibitem[Karniadakis and Kirby, 2003]{karniadakis_parallel_2003}
+Karniadakis, G. and Kirby, R.~M. (2003).
+\newblock {\em Parallel scientific computing in {C}++ and {MPI}: a seamless
+  approach to parallel algorithms and their implementation}.
+\newblock Cambridge University Press, New York.
+
+\bibitem[Kat, 2003]{kat_dangers_2003}
+Kat, H.~M. (2003).
+\newblock The {Dangers} of {Using} {Correlation} to {Measure} {Dependence}.
+\newblock {\em The Journal of Alternative Investments}, 6(2):54--58.
+
+\bibitem[Kauermann and Schellhase, 2013]{kauermann_flexible_2013}
+Kauermann, G. and Schellhase, C. (2013).
+\newblock Flexible pair-copula estimation in {D}-vines using bivariate
+  penalized splines.
+\newblock {\em Statistics and Computing}, 24(6):1--20.
+
+\bibitem[Kazianka, 2012]{kazianka_spatialcopula:_2012}
+Kazianka, H. (2012).
+\newblock {spatialCopula}: {A} {Matlab} toolbox for copula-based spatial
+  analysis.
+\newblock {\em Stochastic Environmental Research and Risk Assessment},
+  27(1):121--135.
+
+\bibitem[Kazianka and Pilz, 2010]{kazianka_spatial_2010}
+Kazianka, H. and Pilz, J. (2010).
+\newblock Spatial {Interpolation} {Using} {Copula}-{Based} {Geostatistical}
+  {Models}.
+\newblock In Atkinson, P.~M. and Lloyd, C.~D., editors, {\em {geoENV} {VII} –
+  {Geostatistics} for {Environmental} {Applications}}, number~16 in
+  Quantitative {Geology} and {Geostatistics}, pages 307--319. Springer
+  Netherlands.
+\newblock DOI: 10.1007/978-90-481-2322-3\_27.
+
+\bibitem[Kazianka and Pilz, 2011]{kazianka_bayesian_2011}
+Kazianka, H. and Pilz, J. (2011).
+\newblock Bayesian spatial modeling and interpolation using copulas.
+\newblock {\em Geoinformatics for Environmental Surveillance}, 37(3):310--319.
+
+\bibitem[King, 1986]{king_how_1986}
+King, G. (1986).
+\newblock How not to lie with statistics: {Avoiding} common mistakes in
+  quantitative political science.
+\newblock {\em American Journal of Political Science}, pages 666--687.
+
+\bibitem[Lantu{\'e}joul, 2002]{lantuejoul_geostatistical_2002}
+Lantu{\'e}joul, C. (2002).
+\newblock {\em Geostatistical simulation : models and algorithms}.
+\newblock Springer, Berlin ; New York.
+
+\bibitem[Laubach et~al., 1998]{laubach_characteristics_1998}
+Laubach, S.~E., Marrett, R.~A., Olson, J.~E., and Scott, A.~R. (1998).
+\newblock Characteristics and origins of coal cleat: {A} review.
+\newblock {\em International Journal of Coal Geology}, 35(1):175--207.
+
+\bibitem[Mai and Scherer, 2012]{mai_simulating_2012}
+Mai, J.-F. and Scherer, M. (2012).
+\newblock {\em Simulating copulas: stochastic models, sampling algorithms and
+  applications}, volume~4.
+\newblock World Scientific.
+
+\bibitem[Mann, 2006]{mann_blossoming_2006}
+Mann, S. (2006).
+\newblock A {Blossoming} development of splines.
+\newblock {\em Synthesis Lectures on Computer Graphics and Animation},
+  1(1):1--108.
+
+\bibitem[Mardia and Jupp, 2000]{mardia_directional_2000}
+Mardia, K.~V. and Jupp, P.~E. (2000).
+\newblock {\em Directional statistics}.
+\newblock Wiley, Chichester.
+
+\bibitem[Matloff, 2016]{matloff_parallel_2016}
+Matloff, N.~S. (2016).
+\newblock {\em Parallel computing for data science: with examples in {R}, {C}++
+  and {CUDA}}.
+\newblock Number~28 in Chapman \& {Hall}/{CRC}: {The} {R} {Series}. CRC Press,
+  Boca Raton.
+\newblock OCLC: ocn913072956.
+
+\bibitem[Meester and Roy, 1996]{meester_continuum_1996}
+Meester, R. and Roy, R. (1996).
+\newblock {\em Continuum {Percolation}}.
+\newblock Cambridge University Press.
+\newblock Google-Books-ID: TBAR3u84114C.
+
+\bibitem[Mendoza-Torres et~al., 2017]{mendoza-torres_bernstein_2017}
+Mendoza-Torres, F., D{\'i}az-Viera, M.~A., and Erdely, A. (2017).
+\newblock Bernstein copula modeling for 2d discrete fracture network
+  simulations.
+\newblock {\em Journal of Petroleum Science and Engineering}, 156:710--720.
+
+\bibitem[Miller, 1984]{miller_reducing_1984}
+Miller, D.~M. (1984).
+\newblock Reducing {Transformation} {Bias} in {Curve} {Fitting}.
+\newblock {\em The American Statistician}, 38(2):124--126.
+
+\bibitem[Miranker, 1971]{miranker_survey_1971}
+Miranker, W.~L. (1971).
+\newblock A {Survey} of {Parallelism} in {Numerical} {Analysis}.
+\newblock {\em SIAM Review}, 13(4):524--547.
+
+\bibitem[Mu{\~n}oz-P{\'e}rez and Fern{\'a}ndez-Palac{\'i}n,
+  1987]{munoz-perez_estimating_1987}
+Mu{\~n}oz-P{\'e}rez, J. and Fern{\'a}ndez-Palac{\'i}n, A. (1987).
+\newblock Estimating the quantile function by {Bernstein} polynomials.
+\newblock {\em Computational Statistics \& Data Analysis}, 5(4):391--397.
+
+\bibitem[Nadarajah et~al., 2016]{nadarajah_compendium_2016}
+Nadarajah, S., Afuecheta, E., and Chan, S. (2016).
+\newblock A {Compendium} of {Copulas}.
+
+\bibitem[Nelsen, 2006]{nelsen_introduction_2006}
+Nelsen, R.~B. (2006).
+\newblock {\em An {Introduction} to {Copulas}}.
+\newblock Springer {Series} in {Statistics}. Springer New York, New York, NY.
+
+\bibitem[Nelson, 2001]{nelson_geologic_2001}
+Nelson, R.~A. (2001).
+\newblock {\em Geologic analysis of naturally fractured reservoirs}.
+\newblock Gulf Professional Pub., Boston.
+
+\bibitem[Nijmeijer, 2015]{nijmeijer_parallel_2015}
+Nijmeijer, M. J.~P. (2015).
+\newblock A parallel root-finding algorithm.
+\newblock {\em LMS Journal of Computation and Mathematics}, 18(1):713--729.
+
+\bibitem[Olson, 2007]{olson_fracture_2007}
+Olson, J.~E. (2007).
+\newblock Fracture aperture, length and pattern geometry development under
+  biaxial loading: a numerical study with applications to natural,
+  cross-jointed systems.
+\newblock {\em Geological Society, London, Special Publications},
+  289(1):123--142.
+
+\bibitem[Overflow, 2017]{stack_overflow_algorithm_2017}
+Overflow, S. (2017).
+\newblock algorithm - {Best} parallel method for finding roots of a numerical
+  function.
+
+\bibitem[Phillips, 2003]{phillips_interpolation_2003}
+Phillips, G.~M. (2003).
+\newblock {\em Interpolation and {Approximation} by {Polynomials}}.
+\newblock {CMS} {Books} in {Mathematics}. Springer New York, New York, NY.
+
+\bibitem[Pyrcz and Deutsch, 2014]{pyrcz_geostatistical_2014}
+Pyrcz, M.~J. and Deutsch, C.~V. (2014).
+\newblock {\em Geostatistical {Reservoir} {Modeling}}.
+\newblock Oxford University Press, Oxford, 2 edition edition.
+
+\bibitem[Quarteroni et~al., 2006]{quarteroni_numerical_2006}
+Quarteroni, A., Sacco, R., and Saleri, F. (2006).
+\newblock {\em Numerical {Mathematics}}.
+\newblock Springer, Berlin ; New York, 2nd edition edition.
+
+\bibitem[Radulovi\'c et~al., 2017]{radulovic_weak_2017}
+Radulovi\'c, D., Wegkamp, M., and Zhao, Y. (2017).
+\newblock Weak convergence of empirical copula processes indexed by functions.
+\newblock {\em Bernoulli}, 23(4B):3346--3384.
+
+\bibitem[Renteln, 2014]{renteln_manifolds_2014}
+Renteln, P. (2014).
+\newblock {\em Manifolds, tensors, and forms: an introduction for
+  mathematicians and physicists}.
+\newblock Cambridge University Press, Cambridge, UK ; New York.
+
+\bibitem[Robert and Casella, 2009]{robert_introducing_2009}
+Robert, C.~P. and Casella, G. (2009).
+\newblock {\em Introducing {Monte} {Carlo} {Methods} with {R}}.
+\newblock Springer Verlag, New York, 2010 edition edition.
+
+\bibitem[Rodrigues et~al., 2014]{rodrigues_coal_2014}
+Rodrigues, C.~F., Laiginhas, C., Fernandes, M., Lemos~de Sousa, M.~J., and
+  Dinis, M. A.~P. (2014).
+\newblock The coal cleat system: {A} new approach to its study.
+\newblock {\em Journal of Rock Mechanics and Geotechnical Engineering},
+  6(3):208--218.
+
+\bibitem[Romano-P\'erez, 2016]{Romano2016}
+Romano-P\'erez, C.~A. (2016).
+\newblock Modelos de fracturas discretas para la simulaci\'on de flujo
+  monof\'asico en medios porosos fracturados.
+\newblock Master's thesis, Universidad Nacional Aut\'onoma de M\'exico.
+
+\bibitem[Salvadori et~al., 2007]{salvadori_extremes_2007}
+Salvadori, G., De~Michele, C., Kottegoda, N.~T., and Rosso, R. (2007).
+\newblock {\em Extremes {In} {Nature}: {An} {Approach} {Using} {Copulas}}.
+\newblock Springer.
+
+\bibitem[Sancetta and Satchell, 2004]{sancetta_bernstein_2004}
+Sancetta, A. and Satchell, S. (2004).
+\newblock The {Bernstein} copula and its applications to modeling and
+  approximations of multivariate distributions.
+\newblock {\em Econometric Theory}, 20(3):535--562.
+
+\bibitem[Schellhase and Kauermann, 2012]{schellhase_density_2012}
+Schellhase, C. and Kauermann, G. (2012).
+\newblock Density estimation and comparison with a penalized mixture approach.
+\newblock {\em Computational Statistics}, 27(4):757--777.
+
+\bibitem[Scott, 1992]{scott_multivariate_1992}
+Scott, D.~W. (1992).
+\newblock {\em Multivariate {Density} {Estimation}: {Theory}, {Practice}, and
+  {Visualization}}.
+\newblock John Wiley \& Sons, New York, 1st edition edition.
+
+\bibitem[Seber and Wild, 2003]{seber_nonlinear_2003}
+Seber, G. A.~F. and Wild, C.~J. (2003).
+\newblock {\em Nonlinear regression}.
+\newblock Wiley series in probability and statistics. Wiley-Interscience,
+  Hoboken, N.J.
+
+\bibitem[Singhal and Gupta, 2010]{singhal_applied_2010}
+Singhal, B. and Gupta, R. (2010).
+\newblock {\em Applied {Hydrogeology} of {Fractured} {Rocks}}.
+\newblock Springer Netherlands, Dordrecht, 2 edition.
+
+\bibitem[Sklar, 1959]{sklar_fonctions_1959}
+Sklar, A. (1959).
+\newblock Fonctions de r{\'e}partition {\'a} n dimensions et leurs marges.
+\newblock {\em Publications de l{\textquoteright}Institut de Statistique de
+  l{\textquoteright}Universit{\'e} de Paris}, 8:229--231.
+
+\bibitem[Stoyan et~al., 1987]{Stoyan1987}
+Stoyan, D., Kendall, W.~S., and Mecke, J. (1987).
+\newblock {\em Stochastic geometry and its applications}.
+\newblock Wiley series in probability and mathematical statisitics. Wiley,
+  Chichester, W. Sussex, New York.
+\newblock Rev. translation of: Stochastische Geometrie.
+
+\bibitem[Tu, 2015]{tu_study_2015}
+Tu, R. (2015).
+\newblock A {Study} of the {Parametric} and {Nonparametric} {Linear}-{Circular}
+  {Correlation} {Coefficient}.
+\newblock {\em Digital Commons Statistics}.
+
+\bibitem[Venit and Drake, 2014]{venit_prelude_2014}
+Venit, S. and Drake, E. (2014).
+\newblock {\em Prelude to {Programming}}.
+\newblock Pearson, Boston, 6 edition edition.
+
+\bibitem[Wehrly and Johnson, 1980]{wehrly_bivariate_1980}
+Wehrly, T.~E. and Johnson, R.~A. (1980).
+\newblock Bivariate models for dependence of angular observations and a related
+  {Markov} process.
+\newblock {\em Biometrika}, 67(1):255--256.
+
+\bibitem[Wei and Scheffer, 2012]{weis_smooth_2012}
+Wei, G. and Scheffer, M. (2012).
+\newblock Smooth {Nonparametric} {Bernstein} {Vine} {Copulas}.
+\newblock {\em arXiv:1210.2043 [q-fin]}.
+\newblock arXiv: 1210.2043.
+
+\bibitem[Zellou et~al., 2003]{zellou_integrated_2003}
+Zellou, A., Hartley, L., Hoogerduijn-Strating, E., Al~Dhahab, S., Boom, W., and
+  Hadrami, F. (2003).
+\newblock Integrated {Workflow} {Applied} to the {Characterization} of a
+  {Carbonate} {Fractured} {Reservoir}: {Qarn} {Alam} {Field}.
+\newblock In {\em {SPE}-81579-{MS}}, pages 1 -- 8, SPE. Society of Petroleum
+  Engineers.
+
+\end{thebibliography}

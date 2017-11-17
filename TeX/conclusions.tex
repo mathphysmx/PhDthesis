@@ -1,0 +1,57 @@
+
+\chapter{Conclusiones y trabajo futuro}
+\label{ch:conclusiones}
+
+% objective
+Se cumpli\'o con el objetivo de  establecer una metodolog\'ia sistem\'atica para la simulaci\'on estoc\'astica de propiedades de redes de fracturas discretas en medios porosos.
+En particular, considerando las dependencias complejas de los objetos que representan a las fracturas discretas mediante la modelaci\'on de su funci\'on de distribuci\'on de probabilidad conjunta usando c\'opulas.
+
+% Copula, Bernstein, Carnicero
+El enfoque de la c\'opula de Bernstein permite investigar estad\'isticamente y de manera muy flexible, las estructuras de dependencia complejas  entre las variables, a diferencia de las restricciones de los modelos de regresi\'on lineal. Este enfoque es dirigido por las caracter\'isticas de los datos. 
+En particular, la condici\'on peri\'odica de \citeauthor{carnicero_non-parametric_2013} extiende el enfoque para incluir variables tales como la direcci\'on de la fractura.
+
+El uso de las c\'opulas, para modelar la estructura de dependencia, permite evitar el sesgo producido al transformar las variables aleatorias involucradas en simulaciones, por ejemplo la transformaci\'on logar\'itmica de las longitudes de fractura.
+
+Los enfoques no param\'etricos utilizados para las distribuciones marginales y la c\'opula permitieron una muy buena coincidencia de la simulaci\'on de la red de fracturas discretas, incluso en presencia de asimetr\'ia en la distribuci\'on. Esto permite estimar, a trav\'es del an\'alisis de simulaciones, propiedades de percolaci\'on m\'as realistas de los medios porosos fracturados. Otra ventaja con este enfoque no param\'etrico es la facilidad de uso, ya que no se requiere una prueba de bondad de ajuste.
+
+% workflow
+Bas\'andonos en la teor\'ia de c\'opulas, la geometr\'ia estoc\'astica, y la modelaci\'on geol\'ogica-petrof\'isica, se establecieron flujos de trabajo para la metodolog\'ia propuesta con la finalidad de analizar, modelar y simular redes de fracturas discretas.
+Se mostraron flujos de trabajo generales y particulares.
+Como resultado de esta metodolog\'ia, a partir de un conjunto de datos de fracturas, se pueden obtener simulaciones de redes de fracturas discretas tomando en cuenta su estructura de dependencia.
+De manera m\'as general, esta metodolog\'ia se puede aplicar a los modelos booleanos.
+
+% La \'unica estructura de dependencia que falta por incluir en la metodolog\'ia propuesta es la que se pueda tener entre las propiedades de las fracturas y su ubicaci\'on espacial. Esta \'ultima generalmente se modela mediante la teor\'ia de los campos aleatorios (random fields). Alguna(s) propiedad(es) de fracturas como la longitud pueden depender de su ubicaci\'on espacial. Esta relaci\'on de dependencia no se consider\'o en los objetivos de esta tesis.
+
+Como otro resultado de esta tesis se cre\'o un software en \verb|R| que permite implementar la metodolog\'ia propuesta paso a paso.
+Cabe mencionar que como parte del flujo de trabajo se ha incluido el an\'alisis exploratorio de los datos, ya que a veces suele omitirse.
+En esta etapa es donde se entiende el comportamiento de los datos, que, a su vez, es un descriptor del fen\'omeno subyacente.
+Dicha comprensi\'on permite validar las simulaciones.
+
+Utilizar una funci\'on (modelo de dependencia), la c\'opula, para modelar para estudiar la dependencia de las variables aleatorias tiene m\'as potencial que  usar un estad\'igrafo.
+Como ejemplo, se mostr\'o un caso combinando dos estructuras de dependencia diferentes.
+Aunque esto se puede hacer por separado, la c\'opula permite modelar ambos casos al mismo tiempo.
+Para la relaci\'on longitud-apertura, se utiliz\'o una dependencia cuasi-mon\'otona pero a la vez compleja.
+De esta manera se mostr\'o la versatilidad de la c\'opula en la modelaci\'on de dependencias com\'unmente utilizadas, as\'i como en dependencias no frecuentemente mostradas en la literatura.
+
+La metodolog\'ia desarrollada para casos bivariados se pudo utilizar en un caso tri-variado de variables aleatorias con el enfoque de Vine copulas.
+En particular cuando hay independencia condicional, en el cual se mostr\'o que la longitud es el enlace entre orientaci\'on y apertura. La independencia observada se mostr\'o entre la orientaci\'on y la apertura.
+
+% future work
+A continuaci\'on y como trabajo futuro se mencionan algunas \'areas del conocimiento en que los resultados se pueden generalizar, aplicar o reducir el tiempo de c\'omputo. Mismas que fueron detectadas a lo largo del desarrollo de la tesis.
+
+Como trabajo futuro se pueden explorar otras definiciones de la funci\'on de distribuci\'on emp\'irica univariada. \'Estas tendr\'ian la ventaja de que las simulaciones no estar\'ian restringidas a valores entre el m\'inimo y el m\'aximo de los datos.
+
+Una de las desventajas de las c\'opulas de Bernstein es el tiempo de c\'omputo, el cual tambi\'en se podr\'ia reducir si se trabaja en un algoritmo que calcule la inversa de manera que considere las propiedades (por ejemplo, la monoton\'ia) de las funciones de distribuci\'on univariada. Tal algoritmo podr\'ia ser el de bisecci\'on de manera que tome en cuenta el c\'omputo en paralelo.
+
+Se ha demostrado que las c\'opulas de Bernstein no reproducen dependencia en las colas, por lo que agregar tal comportamiento, enriquecer\'ia la metodolog\'ia y los resultados de esta tesis.
+
+Las c\'opulas de Bernstein reproducen muy bien los datos, lo que puede llevar a un sobreajuste, es decir, las simulaciones solamente reproducen los datos utilizados y puede que no reproduzcan a otros datos agregados en campa\~nas de adquisici\'on posteriores.
+Una mejora al m\'etodo es reducir dicho sobreajuste.
+%, quiz\'as alg\'un m\'etodo de validaci\'on cruzada.
+
+El uso de c\'opulas param\'etricas como las arquimedianas agrega valor a esta tesis, ya que ese tipo de c\'opulas tienen estructuras de dependencia mon\'otonas o una combinaci\'on de este tipo de dependencias, lo cual hace m\'as f\'acil la interpretaci\'on del fen\'omeno en estudio.
+
+El caso trivariado directo, sin c\'opulas de Vine, tambi\'en se podr\'ia implementar. Para obtener dichas simulaciones, se requiere obtener la inversa de una funci\'on de tres variables, lo cual podr\'ia tomar demasiado tiempo computacional. En el dado caso de existir datos orientados, tambi\'en se tendr\'ia que implementar el c\'alculo del histograma multivariado.
+
+%Se puede explorar los resultados con el enfoque de B-splines para modelar, no la c\'opula $C$ como en este trabajo, sino la funci\'on de densidad de c\'opula $c$ como en el trabajo de \cite{schellhase_density_2012}.
+

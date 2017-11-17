@@ -1,0 +1,77 @@
+\documentclass[12pt,openright,twoside]{TeX/config/UNAMFIThesisPortadaBiblioteca}%[a4paper,openright,openany,12pt,oneside]{book}
+
+\include{TeX/config/macros}   % Archivo con funciones útiles
+
+%%%%%%%%%%%%%%%%%%%%%%%%%
+%  Datos de la portada  %
+%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\title{Modelos basados en c\'opulas para la simulaci\'on estoc\'astica conjunta de propiedades de redes de fracturas discretas en medios porosos fracturados}
+\author{\uppercase{Francisco Mendoza Torres}}        
+\degreethesis{\uppercase{Doctor en Ciencias de la Tierra}}% Carrera
+\director{Dr. Mart\'in Alberto D\'iaz Viera}% Director de tesis
+\degreedate{Noviembre 2017}    % Año de la fecha del examen
+\lugar{Ciudad Universitaria, Ciudad de M\'exico}% Lugar
+\portadafalse % Portada en NEGRO, descomentar y comentar la línea siguiente si se quiere utilizar
+%\portadatrue                                % Portada en COLOR
+\begin{document}
+	\maketitle % hace la portada
+
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	%                  PRÓLOGO                          %
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\frontmatter
+	\include{TeX/Resumen}
+	\include{TeX/Abstract}
+	\include{TeX/copyrights}
+	\include{TeX/dedicatoria}
+		
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	%                   ÍNDICES                         %
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%		
+	\include{TeX/Indice}
+
+	\listoffigures
+	\addcontentsline{toc}{chapter}{Lista de figuras}
+
+	\listoftables
+	\addcontentsline{toc}{chapter}{Lista de tablas}
+
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	%                   NOMENCLATURA                    %
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\cleardoublepage% or \clearpage
+	\markboth{\nomname}{\nomname}%
+	\setlength{\nomitemsep}{1pt}%-\parsep}
+	{\footnotesize \printnomenclature}
+	
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	%                   CONTENIDO                       %
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%	
+	\mainmatter
+
+	\include{TeX/intro}
+	\include{TeX/estadoDelArte}
+	\include{TeX/booleanModels}
+	\include{TeX/directionalStats}
+	\include{TeX/copulaTheory}
+	\include{TeX/fracSimMethodology}
+	\include{TeX/caseStudy}
+	\include{TeX/caseStudy3D}
+	\include{TeX/conclusions}
+
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	%                   APÉNDICES                       %
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\appendix
+	\include{TeX/approximationTheory}
+	\include{TeX/softwareValidation}
+
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	%                   BIBLIOGRAFÍA                    %
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	%\bibliographystyle{UNAMThesis}
+	\bibliographystyle{apalike}
+	\bibliography{TeX/references}
+	\addcontentsline{toc}{chapter}{Bibliograf\'ia}
+\end{document}

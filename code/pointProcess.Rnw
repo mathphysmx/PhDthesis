@@ -1,0 +1,49 @@
+\documentclass[11pt]{article}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+
+\begin{document}
+
+<<label=setUp,include = FALSE>>=
+source("./R/sourceDir.R")
+source('./R/knitrParam.R')             # knitr parameters 
+source('./R/figParam.R') 
+sourceDir(path = "/media/paco/myhdd/soft/dev/R/Rfunctions")
+@
+
+\section{Introducci\'{o}n}
+
+<<label=pp, fig.width=3, fig.height=3.5>>=
+library(spatstat)
+
+# 100 uniform random points in the unit square
+n <- 50
+set.seed(18)
+X <- rpoint(n)
+write.csv(data.frame(x=X$x, y=X$y), file = './datasets/ppHom.csv',
+	  quote=FALSE, row.names=FALSE)
+plotEmpty(xlim=0:1, ylim=0:1);box()
+points(X$x, X$y, asp = 1, pch = pch20)
+
+# inhomogeneous Poisson process in unit square
+# with intensity lambda(x,y) = lam * exp(-3*x)
+# Intensity is bounded by lam
+lam = 200; set.seed(8)
+X <- rpoispp(function(x,y) {lam * exp(-3*x)}, lam)
+write.csv(data.frame(x=X$x, y=X$y), file = './datasets/ppInHom.csv',
+	  quote=FALSE, row.names=FALSE)
+plotEmpty(xlim=0:1, ylim=0:1);box()
+points(X$x, X$y, asp = 1, pch = pch20)
+
+# homogeneous (Matern) Cluster point process
+set.seed(2)
+X <- rMatClust(40, 0.05, 10); length(X$x)
+write.csv(data.frame(x=X$x, y=X$y), file = './datasets/ppCluster.csv',
+	  quote=FALSE, row.names=FALSE)
+plotEmpty(xlim=0:1, ylim=0:1);box()
+points(X$x, X$y, asp = 1, pch = pch20)
+@
+
+\end{document}

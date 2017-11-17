@@ -1,0 +1,60 @@
+\select@language {spanish}
+\hfill \textbf {P\'agina} \par 
+\contentsline {chapter}{Resumen}{\es@scroman {i}}{chapter*.1}
+\contentsline {chapter}{Abstract}{\es@scroman {iii}}{chapter*.2}
+\contentsline {chapter}{\'Indice general}{\es@scroman {xiii}}{chapter*.6}
+\contentsline {chapter}{Lista de figuras}{\es@scroman {xviii}}{chapter*.7}
+\contentsline {chapter}{Lista de tablas}{\es@scroman {xix}}{chapter*.8}
+\contentsline {chapter}{\numberline {1}Introducci\'on}{1}{chapter.1}
+\contentsline {chapter}{\numberline {2}Modelos de fracturas en el marco de la modelaci\'on geol\'ogico-petrof\'isica de yacimientos}{5}{chapter.2}
+\contentsline {section}{\numberline {2.1}Modelaci\'on geol\'ogico-petrof\'isica de yacimientos}{5}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Modelo geol\'ogico}{6}{subsection.2.1.1}
+\contentsline {subsubsection}{\numberline {2.1.1.1}Geometr\'ia y arquitectura del yacimiento}{6}{subsubsection.2.1.1.1}
+\contentsline {subsubsection}{\numberline {2.1.1.2}Procedimiento para la construcci\'on del marco estructural en 3D}{7}{subsubsection.2.1.1.2}
+\contentsline {subsubsection}{\numberline {2.1.1.3}Marco estratigr\'afico}{8}{subsubsection.2.1.1.3}
+\contentsline {subsubsection}{\numberline {2.1.1.4}Modelo litol\'ogico}{9}{subsubsection.2.1.1.4}
+\contentsline {subsubsection}{\numberline {2.1.1.5}Modelado de heterogeneidades}{12}{subsubsection.2.1.1.5}
+\contentsline {subsection}{\numberline {2.1.2}Modelo petrof\'isico}{12}{subsection.2.1.2}
+\contentsline {subsubsection}{\numberline {2.1.2.1}Estimaci\'on de propiedades petrof\'isicas}{12}{subsubsection.2.1.2.1}
+\contentsline {subsubsection}{\numberline {2.1.2.2}Metodolog\'ia de simulaci\'on de propiedades petrof\'isicas y t\'ecnicas geoestad\'isticas para modelar variables continuas}{15}{subsubsection.2.1.2.2}
+\contentsline {section}{\numberline {2.2}Modelos de fracturas}{16}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}M\'etodo Gaussiano truncado utilizando simulaci\'on indicador}{17}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Modelo con geoestad\'istica multi-punto}{19}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.3}Modelos booleanos}{19}{subsection.2.2.3}
+\contentsline {chapter}{\numberline {3}Modelos booleanos basados en objetos estoc\'asticos}{23}{chapter.3}
+\contentsline {section}{\numberline {3.1}Procesos puntuales}{23}{section.3.1}
+\contentsline {section}{\numberline {3.2}Construcci\'on del modelo booleano}{25}{section.3.2}
+\contentsline {section}{\numberline {3.3}El funcional que evita (avoiding functional) del modelo booleano}{26}{section.3.3}
+\contentsline {section}{\numberline {3.4}Propiedades de estabilidad}{27}{section.3.4}
+\contentsline {section}{\numberline {3.5}Simulaci\'on del modelo booleano}{29}{section.3.5}
+\contentsline {section}{\numberline {3.6}El caso estacionario}{34}{section.3.6}
+\contentsline {chapter}{\numberline {4}Estad\'istica de datos orientados}{37}{chapter.4}
+\contentsline {section}{\numberline {4.1}Variables aleatorias}{37}{section.4.1}
+\contentsline {section}{\numberline {4.2}Variables orientadas}{41}{section.4.2}
+\contentsline {chapter}{\numberline {5}Modelaci\'on de dependencias mediante la teor\'ia de c\'opulas.}{45}{chapter.5}
+\contentsline {section}{\numberline {5.1}Generalidades}{45}{section.5.1}
+\contentsline {section}{\numberline {5.2}C\'opulas bivariadas de Bernstein}{50}{section.5.2}
+\contentsline {section}{\numberline {5.3}C\'opulas bivariadas para vectores aleatorios con componentes orientadas}{56}{section.5.3}
+\contentsline {section}{\numberline {5.4}Simulaci\'on conjunta de variables aleatorias: caso bivariado}{60}{section.5.4}
+\contentsline {section}{\numberline {5.5}Simulaci\'on conjunta de variables aleatorias: caso multivariado}{61}{section.5.5}
+\contentsline {section}{\numberline {5.6}Vine c\'{o}pulas: Caso trivariado}{62}{section.5.6}
+\contentsline {section}{\numberline {5.7}C\'{o}pulas de Bernstein: caso general multivariado}{63}{section.5.7}
+\contentsline {section}{\numberline {5.8}C\'opulas multivariadas para vectores aleatorios con componentes orientadas}{65}{section.5.8}
+\contentsline {chapter}{\numberline {6}Metodolog\'ia de simulaci\'on de redes de fracturas discretas}{67}{chapter.6}
+\contentsline {section}{\numberline {6.1}An\'alisis, modelado y simulaci\'on de variables aleatorias}{67}{section.6.1}
+\contentsline {section}{\numberline {6.2}An\'alisis, modelado y simulaci\'on de la estructura de dependencia entre variables aleatorias}{69}{section.6.2}
+\contentsline {section}{\numberline {6.3}Diagrama de flujo para el an\'alisis, modelado y simulaci\'on de redes de fracturas discretas tomando en cuenta su estructura de dependencia}{72}{section.6.3}
+\contentsline {chapter}{\numberline {7}Casos de estudio}{75}{chapter.7}
+\contentsline {section}{\numberline {7.1}Caso bivariado orientaci\'on-longitud}{75}{section.7.1}
+\contentsline {subsection}{\numberline {7.1.1}Descripci\'on de los datos}{75}{subsection.7.1.1}
+\contentsline {subsection}{\numberline {7.1.2}La metodolog\'ia est\'andar}{81}{subsection.7.1.2}
+\contentsline {subsection}{\numberline {7.1.3}El enfoque con la c\'opula de Bernstein}{85}{subsection.7.1.3}
+\contentsline {section}{\numberline {7.2}Caso de estudio trivariado: orientaci\'on-longitud-apertura.}{87}{section.7.2}
+\contentsline {section}{\numberline {7.3}Resultados y discusi\'on}{91}{section.7.3}
+\contentsline {chapter}{\numberline {8}Conclusiones y trabajo futuro}{93}{chapter.8}
+\contentsline {chapter}{\numberline {A}Teor\'ia de la aproximaci\'on de funciones}{95}{appendix.Alph1}
+\contentsline {section}{\numberline {A.1}Curvas de B\'ezier}{96}{section.Alph1.1}
+\contentsline {chapter}{\numberline {B}Software}{101}{appendix.Alph2}
+\contentsline {section}{\numberline {B.1}Introducci\'on}{101}{section.Alph2.1}
+\contentsline {section}{\numberline {B.2}Validaci\'on del software}{101}{section.Alph2.2}
+\contentsline {chapter}{Bibliograf\'ia}{114}{appendix*.77}

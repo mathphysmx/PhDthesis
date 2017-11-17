@@ -1,0 +1,100 @@
+% http://www.texample.net/tikz/examples/flexible-flow-chart/
+% Flowcharting techniques for easy maintenance
+% Author: Brent Longborough
+\documentclass[x11names]{article}
+\usepackage{tikz}
+\usetikzlibrary{shapes,arrows,chains}
+%%%<
+\usepackage{verbatim}
+\usepackage[active,tightpage]{preview}
+\PreviewEnvironment{tikzpicture}
+\setlength\PreviewBorder{5mm}%
+%%%>
+\begin{comment}
+:Title: Easy-maintenance flowchart
+:Tags: flowcharts
+:Author: Brent Longborough
+:Slug: flexible-flow-chart
+
+  This TikZ example illustrates a number of techniques for making TikZ
+  flowcharts easier to maintain:
+    * Use of <on chain> and <on grid> to simplify positioning
+    * Use of global <node distance> options to eliminate the need to 
+      specify individual inter-node distances
+    * Use of <join> to reduce the need for references to node names
+    * Use of <join by> styles to tailor specific connectors
+    * Use of <coordinate> nodes to provide consistent layout for
+      parallel flow lines
+    * A method for consistent annotation of decision box exits
+    * A technique for marking coordinate nodes (for layout debugging)
+
+    I encourage you to tinker at this file - add intermediate boxes,
+    alter the global distance settings, and so on, to see how well (or
+    ill!) it adapts.
+\end{comment}
+\begin{document}
+% =================================================
+% Set up a few colours
+\colorlet{lcfree}{Green3}
+\colorlet{lcnorm}{Blue3}
+\colorlet{lccong}{Red3}
+% -------------------------------------------------
+% Set up a new layer for the debugging marks, and make sure it is on
+% top
+\pgfdeclarelayer{marx}
+\pgfsetlayers{main,marx}
+% A macro for marking coordinates (specific to the coordinate naming
+% scheme used here). Swap the following 2 definitions to deactivate
+% marks.
+\providecommand{\cmark}[2][]{%
+  \begin{pgfonlayer}{marx}
+    \node [nmark] at (c#2#1) {#2};
+  \end{pgfonlayer}{marx}
+  } 
+\providecommand{\cmark}[2][]{\relax} 
+% -------------------------------------------------
+% Start the picture
+\begin{tikzpicture}[%
+    >=triangle 60,              % Nice arrows; your taste may be different
+    start chain=going below,    % General flow is top-to-bottom
+    node distance=8mm and 60mm, % Global setup of box spacing
+    every join/.style={norm},   % Default linetype for connecting boxes
+    ]
+% ------------------------------------------------- 
+% A few box styles 
+% <on chain> *and* <on grid> reduce the need for manual relative
+% positioning of nodes
+\tikzset{
+  base/.style={draw, on chain, on grid, align=center, minimum height=4ex},
+  proc/.style={base, rectangle, text width=8em},
+  test/.style={base, diamond, aspect=2, text width=5em},
+  term/.style={proc, rounded corners},
+  % coord node style is used for placing corners of connecting lines
+  coord/.style={coordinate, on chain, on grid, node distance=6mm and 25mm},
+  % nmark node style is used for coordinate debugging marks
+  nmark/.style={draw, cyan, circle, font={\sffamily\bfseries}},
+  % -------------------------------------------------
+  % Connector line styles for different parts of the diagram
+  norm/.style={->, draw, lcnorm},
+}
+
+% -------------------------------------------------
+\node [proc] (cop) {$u_{\theta} \qquad u_l$};
+% Use join to connect a node to the previous one 
+\node [proc, join] {$\hat{C}n$};
+\node [proc, join, fill=red!30] {$C_{\theta l}$};
+
+\node [proc, left=of cop, fill=green!30] (x1) {$\theta_i$};
+\node [proc, join] {$\hat{F}_{\theta}$};
+\node [proc, join, fill=red!30] {$F_{\theta}$};
+
+\node [proc, right=of cop, fill=green!30] (x2) {$l_i$};
+\node [proc, join] {$\hat{F}_l$};
+\node [proc, join, fill=red!30] {$F_l$};
+
+\draw [->,lcnorm] (x1.east) -- (cop);
+\draw [->,lcnorm] (x2.west) -- (cop);
+
+\end{tikzpicture}
+% =================================================
+\end{document}

@@ -1,0 +1,69 @@
+\select@language {spanish}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.2}{\ignorespaces a) Variograma; b) Simulaci\'on. Modificada de la Fig. 2 de \citet {dowd_comparison_2007}\relax }}{17}{figure.caption.10}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces a) fracturas; b) fracturas digitalizadas; c) Fracturas pixeladas; d) centroides de fracturas.\relax }}{18}{figure.caption.9}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Simulaciones basadas en la geoestad\'istica multi-punto.\relax }}{20}{figure.caption.11}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Modelado de una fractura. Izquierda: fractura real; derecha: su modelo de placas paralelas (Modificada de la Fig. 2.11 de \citeauthor {dietrich_flow_2005}, \citeyear {dietrich_flow_2005}).\relax }}{21}{figure.caption.13}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Ejemplos de procesos puntuales. a) Caso Homog\'eneo, b) Intensidad no uniforme c) Proceso de conglomerados.\relax }}{24}{figure.caption.14}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Ejemplos de modelos booleanos cuyos objetos son (a) c\'irculos; b) Segmentos lineales.\relax }}{26}{figure.caption.15}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Ejemplo de funci\'on de distribuci\'on de probabilidad. En rojo se muestra la inversa $F^{-1}(t_s)$.\relax }}{38}{figure.caption.16}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Funci\'on de distribuci\'on emp\'irica. Los rect\'angulos en negro con l\'ineas de guiones se muestra el correspondiente arreglo computacional para almacenar los valores de $\mathaccentV {hat}05E{F}_n$.\relax }}{39}{figure.caption.17}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Motivaci\'on de la estad\'istica de datos orientados. \textquestiondown Cu\'al es la media? \textquestiondown Y la desviaci\'on est\'andar?\relax }}{41}{figure.caption.18}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Donde $i,j,k \in \{1, \ldots ,n\}$. Tonos m\'as oscuros representan valores de $n\mathaccentV {hat}05E{C}_n$ m\'as grandes. Cada cambio en tono representa una diferencia de uno (por la funci\'on indicador).\relax }}{48}{figure.caption.20}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Representaci\'on gr\'afica de la c\'opula emp\'irica y su relaci\'on con su almacenaje computacional en una matriz. El centro de cada c\'irculo representa una pseudo-observaci\'on $\mathbf {u}_i = (u_i,v_i)$. La malla regular de l\'ineas de guiones representa el arreglo en la memoria, $n\mathbf {C}$, que guarda los valores enteros $C_{ij}:=n\mathaccentV {hat}05E{C}_n(u_i, v_j)$. Donde $i$ denota el rengl\'on y $j$ la columna. N\'otese que las $u_i$ est\'an ordenadas crecientemente pero no existe un orden en las $v_i$. Alternativamente se pudo haber ordenado por $v_i$ y dejar las $u_i$ sin orden.\relax }}{49}{figure.caption.21}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Ejemplo de la aplicaci\'on de la teor\'ia de c\'opulas de Bernstein \citep {erdely_joint_2012}.\relax }}{51}{figure.caption.22}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Representaci\'on esquem\'atica de los pesos $p_{ij}$ de la densidad de c\'opula.\relax }}{55}{figure.caption.23}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Correcci\'on para que la c\'opula de Bernstein cumpla con la condici\'on de periodicidad en la primera variable (\autoref {eq:periodCop}).\relax }}{57}{figure.caption.24}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Densidad marginal estimada (top), funci\'on de distribuci\'on (medio) y gr\'aficos de cuantiles (abajo) para direcci\'on del viento (izquierda) y para la precipitaci\'on pluvial (derecha). Tomada de \cite {carnicero_non-parametric_2013}.\relax }}{58}{figure.caption.25}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Funci\'on de densidad conjunta estimada (utilizando c\'opulas de Bernstein) de la variable circular-lineal \(\left ( \Theta ,X \right )\) . La cual describe la direcci\'on del viento y la precipitaci\'on pluvial.\relax }}{58}{figure.caption.26}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Densidad marginal estimada (top) y funci\'on de distribuci\'on (abajo) para la direcci\'on de dos boyas.\relax }}{60}{figure.caption.27}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Histogramas de un ejemplo de simulaci\'on no param\'etrica. 473 datos (izquierda) y 100 datos simulados (derecha).\relax }}{61}{figure.caption.28}
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Diagrama de \'arbol que muestra c\'omo se van agregando la condici\'on de periodicidad a las variables aleatorias para la c\'opula de Bernstein multivariada. Aqu\'i se muestra el caso para 3 variables aleatorias peri\'odicas. N\'otese que tambi\'en muestra la cantidad de sumandos de los elementos de las esquinas, que para este caso es \(2^{3}\).\relax }}{66}{figure.caption.29}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Diagrama de flujo para obtener una simulaci\'on de una variable aleatoria. En este caso puede ser la orientaci\'on o la longitud. Comp\'arese con la \autoref {f:cdf1D}.\relax }}{68}{figure.caption.31}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Diagrama de flujo para obtener las pseudo-observaciones. Comp\'arese con la \autoref {f:cdf1D}.\relax }}{69}{figure.caption.32}
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Obtenci\'on del diagrama de pseudo-observaciones con el cual se estudia la dependencia entre dos variables aleatorias. Las funciones de distribuci\'on marginales que se muestran son continuas pero pueden ser no-continuas o una combinaci\'on de ambas.\relax }}{70}{figure.caption.33}
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Diagrama de dispersi\'on con m\'ultiples zonas remarcadas a fin de hacer un an\'alisis exploratorio preliminar.\relax }}{71}{figure.caption.34}
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Diagrama de dispersi\'on en el cual se han resaltado dos zonas con dependencias m\'as simples.\relax }}{71}{figure.caption.35}
+\contentsline {figure}{\numberline {6.6}{\ignorespaces Modelaci\'on de la c\'opula a partir de las pseudo-observaciones.\relax }}{72}{figure.caption.36}
+\contentsline {figure}{\numberline {6.7}{\ignorespaces Modelaci\'on bivariada de propiedades de objetos booleanos.\relax }}{73}{figure.caption.37}
+\contentsline {figure}{\numberline {6.8}{\ignorespaces Diagrama de flujo para obtener ubicaciones espaciales a trav\'es de un proceso puntual. Desde el punto de vista computacional, la parte superior del diagrama indica crear un arreglo vac\'io que almacene las coordenadas de todos los vertores $\mathbf {x}_i$.\relax }}{73}{figure.caption.38}
+\contentsline {figure}{\numberline {6.9}{\ignorespaces Flujo de trabajo para la caracterizaci\'on, modelado y simulaci\'on de redes de fracturas discretas en medios porosos fracturados.\relax }}{74}{figure.caption.39}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Representaci\'on gr\'afica de la red de fracturas de los datos sint\'eticos. Aproximadamente el 10\% de las fracturas son de color negro.\relax }}{77}{figure.caption.40}
+\contentsline {figure}{\numberline {7.2}{\ignorespaces Roseta de los datos a analizar. f0 est\'a en la direcci\'on N-S, f90 en la direcci\'on perpendicular (E-O).\relax }}{78}{figure.caption.42}
+\contentsline {figure}{\numberline {7.3}{\ignorespaces Histograma de las longitudes de fractura. La longitud se distribuye lognorm(meanlog = 3.00, sdlog = 0.73)\relax }}{79}{figure.caption.44}
+\contentsline {figure}{\numberline {7.4}{\ignorespaces Funci\'on de distribuci\'on acumulativa y su respectivo modelo ajustado mediante la funci\'on cuantil de Bernstein-Kantorovich. Izquierda: direcci\'on; Derecha: longitud.\relax }}{80}{figure.caption.46}
+\contentsline {figure}{\numberline {7.5}{\ignorespaces Diagrama de dispersi\'on de la longitud vs direcci\'on (izquierda), y su correspondiente gr\'afico de pseudo-observaciones (derecha).\relax }}{80}{figure.caption.47}
+\contentsline {figure}{\numberline {7.6}{\ignorespaces Roseta de orientaciones de una simulaci\'on. Comp\'arese con \autoref {f:rose}\relax }}{82}{figure.caption.48}
+\contentsline {figure}{\numberline {7.7}{\ignorespaces Histograma de longitudes de una simulaci\'on. Comp\'arese con la \autoref {f:hist}.\relax }}{83}{figure.caption.50}
+\contentsline {figure}{\numberline {7.8}{\ignorespaces Funciones de distribuci\'on acumulativa emp\'irica de los datos y sus respectivos modelos. Izquierda: Direcciones; Derecha: longitudes.\relax }}{83}{figure.caption.52}
+\contentsline {figure}{\numberline {7.9}{\ignorespaces Diagramas de dispersi\'on de la simulaci\'on. Izquierda: los datos; derecha: las pseudo-observaciones.\relax }}{84}{figure.caption.53}
+\contentsline {figure}{\numberline {7.10}{\ignorespaces DFN de una simulaci\'on de los datos. Comp\'arese con \autoref {f:dfn}.\relax }}{84}{figure.caption.54}
+\contentsline {figure}{\numberline {7.11}{\ignorespaces Diagrama de dispersi\'on y gr\'afico de pseudo-observaciones de la simulaci\'on que toma en cuenta la modelaci\'on de la estructura de dependencia. Comp\'arese con la \autoref {f:scatterplot} y con la \autoref {f:alSimInd}.\relax }}{85}{figure.caption.55}
+\contentsline {figure}{\numberline {7.12}{\ignorespaces DFN de la simulaci\'on basada en las c\'opulas de Bernstein. Comp\'arese con \autoref {f:dfn} y con \autoref {f:dfnSim}.\relax }}{86}{figure.caption.56}
+\contentsline {figure}{\numberline {7.13}{\ignorespaces Sistema de fracturas a analizar.\relax }}{87}{figure.caption.57}
+\contentsline {figure}{\numberline {7.14}{\ignorespaces Matrix de diagramas de dispersi\'on con las correspondientes distributiones marginales en las entradas de la diagonal.\relax }}{89}{figure.caption.59}
+\contentsline {figure}{\numberline {7.15}{\ignorespaces Diagramas de dispersi\'on de las pseudo-observaciones.\relax }}{89}{figure.caption.60}
+\contentsline {figure}{\numberline {7.16}{\ignorespaces Distribuciones marginales en la diagonal dentro de la matriz de simulaciones.\relax }}{90}{figure.caption.62}
+\contentsline {figure}{\numberline {7.17}{\ignorespaces Gr\'afico de pseudo-observaciones simuladas.\relax }}{90}{figure.caption.63}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Interpolaci\'on ( \tikz \draw [dashed, thick] (0,0) -- (0.6,0); ) y aproximaci\'on ( \tikz \draw [thick] (0,0) -- (0.6,0); ) de tres puntos de control.\relax }}{95}{figure.caption.64}
+\contentsline {figure}{\numberline {A.2}{\ignorespaces Interpolaci\'on de Lagrange. Observe las oscilaciones en la curva polinomial aun cuando no se observa tal oscilaci\'on en los puntos de control.\relax }}{96}{figure.caption.65}
+\contentsline {figure}{\numberline {A.3}{\ignorespaces Curva de B\'ezier para el caso de puntos de control equiespaciados a lo largo del eje $x$.\relax }}{97}{figure.caption.66}
+\contentsline {figure}{\numberline {A.4}{\ignorespaces Sean $P$ y $Q$ dos puntos en el conjunto $S \subset \mathbb {R}^n$. (a) El segmento rectil\'ineo $\overline {PQ}$ yace completamente dentro del conjunto convexo $S$; (b) Ejemplo que muestra un conjunto no convexo, en el cual parte del segmento rectil\'ineo yace fuera del conjunto.\relax }}{98}{figure.caption.67}
+\contentsline {figure}{\numberline {A.5}{\ignorespaces Ilustraci\'on de la disminuci\'on en de la variabilidad de las curvas de B\'ezier para varios casos. L\'ineas negras punteadas que intersectan la curva de B\'ezier y sus puntos de control (en gris).\relax }}{99}{figure.caption.68}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {B.1}{\ignorespaces (izquierda) Roseta de orientaciones, (derecha) histograma de precipitaci\'on.\relax }}{102}{figure.caption.69}
+\contentsline {figure}{\numberline {B.2}{\ignorespaces Figuras equivalentes a la Fig. 2 del art\'iculo.(recuadros superiores) Densidad marginal estimada, (recuadros inferiores) funciones de distribuci\'on acumulada, para la direcci\'on del viento (izquierda) y para la precipitaci\'on pluvial (derecha)\relax }}{102}{figure.caption.70}
+\contentsline {figure}{\numberline {B.3}{\ignorespaces Figura equivalentes a la Fig. 4 del art\'iculo. Diagrama de dispersi\'on de precipitaci\'on y direcci\'on del viento (theta).\relax }}{103}{figure.caption.71}
+\contentsline {figure}{\numberline {B.4}{\ignorespaces Densidad de c\'opula.\relax }}{103}{figure.caption.72}
+\contentsline {figure}{\numberline {B.5}{\ignorespaces Funci\'on de densidad de probabilidad emp\'irica y ajustada con el enfoque no param\'etrico utilizando polinomios de Bernstein-Kantorovich. En gris se muestran los datos observados y la l\'inea es el ajuste.\relax }}{104}{figure.caption.73}
+\contentsline {figure}{\numberline {B.6}{\ignorespaces Histogramas de ejemplo de simulaci\'on no param\'etrica utilizando polinomios de Bernstein-Kantorovich para modelar la funci\'on de distribuci\'on de probabilidad. 473 datos (izquierda) y 100 datos simulados (derecha).\relax }}{105}{figure.caption.74}
+\contentsline {figure}{\numberline {B.7}{\ignorespaces Tiempo de c\'omputo de simulaciones de la c\'opula de Bernstein en funci\'on del grado del polinomio.\relax }}{105}{figure.caption.75}
+\contentsline {figure}{\numberline {B.8}{\ignorespaces Media (recuadro izquierdo) y varianza (recuadro derecho) en funci\'on del grado del polinomio de Bernstein de datos simulados.\relax }}{106}{figure.caption.76}

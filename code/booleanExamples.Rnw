@@ -1,0 +1,44 @@
+\documentclass[11pt]{article}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+
+\begin{document}
+
+<<label=setUp,include = FALSE>>=
+source("./R/sourceDir.R")
+source('./R/knitrParam.R')             # knitr parameters 
+source('./R/figParam.R') 
+sourceDir(path = "/media/paco/myhdd/soft/dev/R/Rfunctions")
+@
+
+\section{Introducci\'{o}n}
+
+<<label=boolSim, fig.width=3, fig.height=3.5>>=
+library(spatstat)
+
+# 100 uniform random points in the unit square
+n <- 50
+set.seed(18)
+X <- rpoint(n); pp <- cbind(x=X$x, y=X$y)
+write.csv(pp, file = './datasets/boolHom.csv',
+	  quote=FALSE, row.names=FALSE)
+plot(pp, asp = 1)
+#plotEmpty(xlim=0:1, ylim=0:1);box()
+points(pp, pch = 20)
+radious <- rep(0.1,n)
+library('shape')
+emptyplot(xlim = c(-2, 2), ylim=c(-2,2))
+axis(1); axis(2)
+
+TransparentBlue<-rgb(red=0, green=0, blue=255, alpha=25, max=255)
+for(i in 1:n){
+	# i <- 1
+	print(i)
+	plotcircle(mid = as.vector(pp[i, ]), r = radious[i], 
+		   col =TransparentBlue, lcol =NA)
+}
+@
+
+\end{document}

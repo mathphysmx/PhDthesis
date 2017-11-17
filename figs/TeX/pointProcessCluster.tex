@@ -1,0 +1,12 @@
+\documentclass{standalone}
+\usepackage{pgfplots}
+
+\begin{document}
+
+\begin{tikzpicture}
+    \begin{axis}[color=lightgray, ticks=none]
+        \addplot[only marks,color=blue] table[x=x, y=y, col sep=comma]{../../code/datasets/ppCluster.csv};
+    \end{axis}
+\end{tikzpicture}
+
+\end{document}

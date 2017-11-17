@@ -1,0 +1,82 @@
+\chapter{Introducci\'on}
+\label{ch:intro}
+
+% importance. context: Reservoir
+La modelaci\'on de redes de fracturas es de suma importancia en los medios porosos fracturados, en particular dentro de la modelaci\'on geol\'ogica-petrof\'isica.
+En un contexto din\'amico las redes de fracturas pueden afectar el comportamiento del flujo y almacenamiento de fluidos subterr\'aneos.
+En un contexto est\'atico, tambi\'en son importantes porque ayudan a explicar parte de la historia geol\'ogica de la zona de estudio o forman vetas o corredores de vetas en las que se almacenan minerales.
+Como \citet{nelson_geologic_2001} lo describe: inicialmente hay que considerar que el yacimiento es fracturado.
+
+% Approach: stochastic
+Los modelos de redes de fracturas principalmente se clasifican continuos y discretos \citep{Romano2016}.
+Debido a que los sistemas de fracturas muestran una amplia complejidad \citep{adler_fractures_1999} y que, por razones econ\'omicas y pr\'acticas, el volumen de roca muestreada es t\'ipicamente una muy peque\~na fracci\'on del yacimiento \citep[p. 1]{chiles_geostatistics:_2012}, el enfoque de modelaci\'on usualmente adoptado es el probabil\'istico, ya que permite cuantificar la incertidumbre de los par\'ametros medidos o estimados.
+Es decir, cada propiedad involucrada es usualmente modelada mediante una variable aleatoria.
+
+% DFN
+Gracias al poder computacional que existe actualmente, el modelo de redes de fracturas Discretas (DFN, por sus siglas en ingl\'es) se ha vuelto realizable.
+Este enfoque estoc\'astico consiste en aplicar un m\'etodo de simulaci\'on basada en objetos, el cual tambi\'en se conoce como m\'etodo booleano \citep{Stoyan1987,Cacas2001,chiles_geostatistics:_2012}, en donde las fracturas son representadas como objetos geom\'etricos simplificados.
+Por ejemplo, las fracturas en 2D se representan usualmente como segmentos rectil\'ineos cuya orientaci\'on y longitud representan las caracter\'isticas de mismo nombre de las fracturas.
+Algunas propiedades de fracturas como la porosidad y la apertura no se modelan geom\'etricamente pero s\'i como atributos de las fracturas.
+El m\'etodo booleano tambi\'en es importante dentro de un contexto din\'amico al ser ampliamente utilizado en la teor\'ia de percolaci\'on continua \citep{meester_continuum_1996}. En la tesis de \citet{ayala-garcia_estimacion_2014} se muestran resultados de percolaci\'on en redes de fracturas similares a la de esta tesis.
+
+% Motivation. DFN standard.
+La metodolog\'ia est\'andar supone independencia entre las variables aleatorias que modelan cada propiedad, ya que cada propiedad de fractura se modela de manera independiente \citep{elmo_discrete_2014,bourbiaux_integrated_2002,zellou_integrated_2003,gringarten_geometric_1997,adler_fractures_1999}.
+Se ha demostrado \citep{mendoza-torres_bernstein_2017} que cuando existe dependencia, las redes de fracturas simuladas suponiendo propiedades univariadas independientes pueden tener un comportamiento totalmente diferente al de los datos, incluso aun obedeciendo las mismas distribuciones individuales (marginales).
+Un ejemplo de este caso es cuando se espera (por observaciones geol\'ogicas) que las fracturas m\'as largas est\'en alineadas en cierta direcci\'on, y lo que se obtiene con el enfoque est\'andar es que tales fracturas se simulen en la direcci\'on perpendicular.
+
+La dependencia estad\'istica entre las propiedades de las fracturas usualmente es no-lineal y compleja. Por lo tanto, las t\'ecnicas estad\'isticas tradicionales, que generalmente se basan en suposiciones de linearidad, son muy restrictivas para modelar dichas redes.
+
+Algunos autores \citep{balankin_distribution_2001,olson_fracture_2007} reportan que las longitudes y aperturas de fracturas siguen distribuciones de probabilidad con colas pesadas, lo que a su vez provoca diagramas de dispersi\'on complicados, no solamente entre las variables, sino tambi\'en entre otras variables que no necesariamente tienen colas pesadas.
+
+% Directional - linear
+En particular, la dependencia entre longitud, orientaci\'on y apertura, tanto por pares como de manera trivariada, es no lineal y generalmente no se modela.
+Esto tambi\'en debido a la falta de modelos para la dependencia entre datos orientados y datos convencionales, tales como la longitud.
+Cabe notar, que estas relaciones de dependencia son muy importantes dentro de un contexto de flujo y transporte, ya que pueden afectar severamente las propiedades de percolaci\'on.
+
+% Regression
+Un enfoque ampliamente utilizado para modelar las relaciones de dependencia es el enfoque de regresi\'on lineal.
+Debido a sus limitaciones, en muchas ocasiones se ajustan modelos de manera artificial al transformar estad\'isticamente alguna de las variables involucradas o ambas.
+Decimos de manera artificial por tres aspectos principales: 1) no es claro que la regresi\'on satisfaga los requisitos de la teor\'ia de regresi\'on lineal; 2) el sesgo que se obtiene al transformar los datos \citep{seber_nonlinear_2003,miller_reducing_1984,box_bias_1971}; y 3) el esfuerzo que conlleva comparar transformaciones y evaluar los supuestos de la regresi\'on.
+
+% correlation coeff
+Com\'unmente, con en an\'alisis de regresi\'on se tienen los coeficientes de correlaci\'on.
+\'Estos son estad\'igrafos que intentan explicar la dependencia entre los datos. En ciencias de la tierra, com\'unmente se tienen estructuras de dependencia entre los datos que los coeficientes de correlaci\'on no pueden explicar.
+Por otro lado, se sabe que dos conjuntos de datos pueden tener el mismo coeficiente de correlaci\'on y, por el contrario, tener estructura de dependencia diferente \citep{kat_dangers_2003,embrechts_correlation:_1999,king_how_1986,chernih_beyond_2007}.
+
+% Copula
+Como soluci\'on a estas limitantes, la teor\'ia de c\'opulas ha mostrado modelar de manera flexible y general una gran gama de estructuras de dependencia.
+Una de las ventajas de esta teor\'ia es poder separar la estructura de dependencia de las funciones de distribuci\'on marginales univariadas \citep{sklar_fonctions_1959} cuando \'estas son continuas.
+
+% Approximation. Bernstein
+Una funci\'on c\'opula v\'alida es la aproximaci\'on de la c\'opula emp\'irica \citep{deheuvels_fonction_1979,fermanian_weak_2004,berghaus_weak_2017,radulovic_weak_2017,bucher_empirical_2011,carnicero_non-parametric_2013} mediante los polinomios de Bernstein \citep{sancetta_bernstein_2004}.
+Este enfoque no param\'etrico es m\'as  f\'acil de usar que otros en los que se utilizan c\'opulas param\'etricas, no depende de la forma de la dependencia y la reproduce de manera adecuada.
+
+Sin embargo, una de sus limitantes es no poder modelar de manera natural datos orientados como es el caso de las direcciones de fracturas. \cite{carnicero_non-parametric_2013} adaptaron este modelo para incluir datos peri\'odicos. 
+La teor\'ia de c\'opulas ya ha tenido aplicaciones dentro de Ciencias de la Tierra, por ejemplo, en geoestad\'istica \citep{diaz-viera_stochastic_2005,bardossy_copula-based_2006,haslauer_application_2010,kazianka_spatial_2010,kazianka_bayesian_2011,kazianka_spatialcopula:_2012} o en valores extremos \citep{salvadori_extremes_2007}.
+En particular, las c\'opulas de Bernstein se han utilizado para datos no peri\'odicos \citep{hernandez-maldonado_trivariate_2012,hernandez-maldonado_joint_2012,erdely_nonparametric_2009}, pero esta tesis es el primer proyecto en considerar expl\'icitamente la funci\'on de relaci\'on entre direcci\'on de fracturas y la longitud y apertura de las mismas.
+
+% aim
+El objetivo de este trabajo fue establecer una metodolog\'ia sistem\'atica para la simulaci\'on estoc\'astica de propiedades de redes de fracturas discretas en medios porosos.
+En particular, considerando las dependencias complejas de los objetos que representan a las fracturas discretas mediante la modelaci\'on de su funci\'on de distribuci\'on de probabilidad conjunta usando c\'opulas.
+
+% guide through chapters
+El desarrollo de esta tesis se llev\'o a cabo en 8 cap\'itulos iniciando con la presente introducci\'on \autoref{ch:intro}.
+En el \autoref{s:eda} se muestra una revisi\'on de las redes de fracturas dentro de la modelaci\'on geol\'ogica-petrof\'isica de yacimientos; as\'i mismo se muestran algunos enfoques de modelaci\'on de redes de fracturas, entre ellos el modelo adoptado en esta tesis.
+Los fundamentos matem\'aticos de la geometr\'ia estoc\'astica concerniente a los modelos booleanos (tomado de la literatura) se muestran en el \autoref{ch3:booleanModels}: procesos puntuales y modelos booleanos.
+Estos modelos est\'an constituidos por objetos que tienen diversas propiedades.
+La orientaci\'on de las fracturas es una de ellas para la cual se utiliza la estad\'istica de datos orientados, explicada en el \autoref{ch:prob}. 
+Las caracter\'isticas de estos objetos se modelaron conjuntamente.
+Para lograr tal cometido, en el \autoref{ch:copulaTheory} se muestra a detalle el tema principal de este trabajo. Se muestran las bases de la teor\'ia de c\'opulas, el caso de c\'opulas de Bernstein y su adaptaci\'on para incluir datos orientados.
+Tambi\'en se muestran algunos resultados multivariados, as\'i como el enfoque de c\'opulas de Vine para el caso trivariado.
+Cabe mencionar que, como parte de nuestra aportaci\'on al conocimiento, a lo largo de este cap\'itulo se relacionan los modelos matem\'aticos, sus algoritmos num\'ericos, su almacenaje en memoria computacional y el nombre del c\'odigo que contiene dicha implementaci\'on.
+La siguiente parte de nuestra aportaci\'on se escribe en el \autoref{s:dfnModeling}, el cual es una s\'intesis en flujos de trabajo del cap\'itulo anterior, as\'i como tambi\'en se proporciona una metodolog\'ia general para simulaci\'on estoc\'astica de redes de fracturas discretas.
+En el \autoref{ch7:examples} se aplica la metodolog\'ia y los programas computacionales en dos casos de estudio: uno bivariado y otro trivariado. Aqu\'i se comparan los resultados con la metodolog\'ia est\'andar.
+En el \autoref{ch:conclusiones} se muestran las conclusiones y trabajo futuro. 
+Por \'ultimo, la teor\'ia de aproximaci\'on se expone en el \autoref{ch:approxTheory} ya que no es totalmente necesaria dentro del cuerpo de la tesis.
+
+%La aplicaci\'on de \'esta metodolog\'ia se mostr\'o en dos casos: bivariado y trivariado. En el primero se muestra la metodolog\'ia en el caso de la modelaci\'on orientaci\'on-longitud. Ah\'i mismo se ilustra c\'omo el no tomar en cuenta dicha dependencia --el enfoque cl\'asico-- puede conducir a resultados totalmente distintos a los esperado. En el segundo art\'iculo ya se incluye la apertura mediante el enfoque de c\'opulas de Vine. La importancia de \'este \'ultimo radica en que la apertura juega un papel primordial en para estimar la porosidad y permeabilidad de fractura.
+
+De esta manera, en este trabajo se enriquece la metodolog\'ia de la modelaci\'on de redes de fracturas discretas al considerar la dependencia que existe entre las propiedades intr\'insecas de los modelos booleanos, en particular, en la modelaci\'on de redes de fracturas discretas.
+Se brindan diagramas de flujo de trabajo en cada parte de la modelaci\'on, as\'i como un flujo de trabajo general.
+Esta metodolog\'ia se aplic\'o a dos casos de estudio que reprodujeron la dependencia de los datos; en contraparte, se hizo una comparaci\'on con la metodolog\'ia est\'andar, que produjo resultados bivariados diferentes a los esperados.
+

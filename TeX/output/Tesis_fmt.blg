@@ -1,0 +1,73 @@
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: Tesis_fmt.aux
+A level-1 auxiliary file: TeX/Resumen.aux
+A level-1 auxiliary file: TeX/Abstract.aux
+A level-1 auxiliary file: TeX/copyrights.aux
+A level-1 auxiliary file: TeX/dedicatoria.aux
+A level-1 auxiliary file: TeX/Indice.aux
+A level-1 auxiliary file: TeX/intro.aux
+A level-1 auxiliary file: TeX/estadoDelArte.aux
+A level-1 auxiliary file: TeX/booleanModels.aux
+A level-1 auxiliary file: TeX/directionalStats.aux
+A level-1 auxiliary file: TeX/copulaTheory.aux
+A level-1 auxiliary file: TeX/fracSimMethodology.aux
+A level-1 auxiliary file: TeX/caseStudy.aux
+A level-1 auxiliary file: TeX/caseStudy3D.aux
+A level-1 auxiliary file: TeX/conclusions.aux
+A level-1 auxiliary file: TeX/approximationTheory.aux
+A level-1 auxiliary file: TeX/softwareValidation.aux
+The style file: apalike.bst
+Database file #1: TeX/references.bib
+Repeated entry---line 2036 of file TeX/references.bib
+ : @phdthesis{ayala-garcia_estimacion_2014
+ :                                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2403 of file TeX/references.bib
+ : @book{meester_continuum_1996
+ :                             ,
+I'm skipping whatever remains of this entry
+Warning--empty booktitle in fernandezduran_modelling_2004
+Warning--empty journal in nadarajah_compendium_2016
+You've used 104 entries,
+            1935 wiz_defined-function locations,
+            1050 strings with 22203 characters,
+and the built_in function-call counts, 38737 in all, are:
+= -- 3842
+> -- 1437
+< -- 94
++ -- 494
+- -- 461
+* -- 3148
+:= -- 6786
+add.period$ -- 329
+call.type$ -- 104
+change.case$ -- 723
+chr.to.int$ -- 101
+cite$ -- 106
+duplicate$ -- 1559
+empty$ -- 2758
+format.name$ -- 635
+if$ -- 7627
+int.to.chr$ -- 4
+int.to.str$ -- 0
+missing$ -- 130
+newline$ -- 526
+num.names$ -- 318
+pop$ -- 656
+preamble$ -- 1
+purify$ -- 747
+quote$ -- 0
+skip$ -- 1180
+stack$ -- 0
+substring$ -- 2492
+swap$ -- 205
+text.length$ -- 22
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 554
+warning$ -- 2
+while$ -- 316
+width$ -- 0
+write$ -- 1380
+(There were 2 error messages)

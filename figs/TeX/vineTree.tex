@@ -1,0 +1,18 @@
+\documentclass[border=1pt]{standalone}
+
+\usepackage{tikz}
+\usetikzlibrary{backgrounds}
+\tikzset{showall/.style={framed, every node/.style=draw}}
+
+\begin{document}
+
+\begin{tikzpicture}[parent anchor=south, align=center, level distance=2em, anchor=north, sibling distance=4em, child anchor=north]
+	\node (top) {xp}
+		child {node {x}}
+		child {node {yp}
+			child {node {y}}
+		child {node {zp}}};
+\end{tikzpicture}
+
+\end{document}
+
