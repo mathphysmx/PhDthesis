@@ -1,0 +1,38 @@
+\documentclass[11pt]{article}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+
+\begin{document}
+
+<<label=setUp,include = FALSE>>=
+source("./R/sourceDir.R")
+source('./R/knitrParam.R')             # knitr parameters 
+source('./R/figParam.R') 
+sourceDir(path = "/media/paco/myhdd/soft/dev/R/Rfunctions")
+library(circular)
+library(Cairo)
+circpar <- list(units="degrees", template="geographics",
+                modulo="pi",
+           rotation = "clock", zero = pi, type = "angles")
+TransparentBlue<-rgb(red=0, green=0, blue=255, alpha=100, max=255)
+@
+
+\section{Introducci\'{o}n}
+
+<<label=bivariateCircularPlotDependent, fig.width=4, fig.height=4>>=
+dfnSimCop <- read.table(file="./datasets/AngleLengthSimulationCopula.txt", header = T)
+angleSimCop <- as.circular(x = dfnSimCop$angleDeg, control.circular = circpar)
+DirPlotLinearCirc (x = 2*angleSimCop, y=dfnSimCop$lengthCm, radii.scale="log",
+                   Segments=FALSE, PointsCol = TransparentBlue)
+@
+
+<<label=bivariateCircularPlotIndependent, fig.width=4, fig.height=4>>=
+dfnSimInd <- read.table(file="./datasets/AngleLengthSimulationIndependent.txt", header = T)
+angleSimInd <- as.circular(x = dfnSimInd$angleDeg, control.circular = circpar)
+DirPlotLinearCirc (x = 2*angleSimInd, y=dfnSimInd$lengthCm, radii.scale="log",
+                   Segments=FALSE, PointsCol = TransparentBlue)
+@
+
+\end{document}

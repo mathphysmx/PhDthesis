@@ -4,7 +4,6 @@
 library(circular)
 library(lmomco) # for bernsteincopula package
 library(squash) # for bernsteincopula package
-library(bernsteincopula)
 library(splines)
 library(polynom)
 library(knitr) # to document and tables from r objects
